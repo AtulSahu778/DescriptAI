@@ -37,8 +37,8 @@ export function Toaster() {
         <div
           key={t.id}
           className={`px-4 py-3 rounded-lg shadow-lg text-sm font-medium animate-in slide-in-from-right-full transition-all ${t.type === "error"
-              ? "bg-red-50 text-red-800 border border-red-200"
-              : "bg-white text-foreground border border-border"
+            ? "bg-red-900/90 text-red-100 border border-red-700"
+            : "bg-zinc-800 text-white border border-zinc-700"
             }`}
         >
           {t.message}

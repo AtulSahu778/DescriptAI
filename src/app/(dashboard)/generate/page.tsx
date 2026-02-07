@@ -83,20 +83,20 @@ export default function GeneratePage() {
 
     try {
       const res = await fetch("/api/generate", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ productName, category, features, audience, tone, voiceId: voiceId || undefined }),
-        });
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productName, category, features, audience, tone, voiceId: voiceId || undefined }),
+      });
 
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({ error: "Generation failed" }));
-          toast(data.error || "Generation failed", "error");
-          return;
-        }
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({ error: "Generation failed" }));
+        toast(data.error || "Generation failed", "error");
+        return;
+      }
 
-        const data = await parseGenerateStream(res);
-        setResults(data);
-        toast("Descriptions generated!");
+      const data = await parseGenerateStream(res);
+      setResults(data);
+      toast("Descriptions generated!");
     } catch {
       toast("Something went wrong", "error");
     } finally {
