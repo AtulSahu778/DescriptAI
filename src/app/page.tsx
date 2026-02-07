@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import GradientMesh from "@/components/gradient-mesh";
 
 const typewriterTexts = [
-  "Describe your product in detail...",
-  "Generate compelling copy instantly...",
-  "Transform ideas into conversions...",
+  "Organic Cotton T-Shirt — 3 variants in seconds...",
+  "Bluetooth Noise-Cancelling Headphones...",
+  "Handcrafted Leather Weekender Bag...",
 ];
 
 export default function Home() {
@@ -167,7 +167,7 @@ export default function Home() {
               href="/signup"
               className="px-3 sm:px-5 py-1.5 sm:py-2.5 text-xs sm:text-sm font-medium bg-white text-[#0A0A0A] rounded-full hover:bg-white/90 transition-all duration-200 shadow-lg shadow-white/5"
             >
-              Get started
+                  Get started free
             </Link>
           </div>
         </nav>
@@ -184,9 +184,9 @@ export default function Home() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[7rem] font-extrabold tracking-tighter leading-[0.9] mb-6 sm:mb-8"
             style={{ letterSpacing: '-0.04em' }}
           >
-            <span className="text-white">Intelligence,</span>
-            <br />
-            <span className="text-white">Accelerated.</span>
+            <span className="text-white">Product copy</span>
+              <br />
+              <span className="text-white">that sells itself.</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -194,9 +194,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
-            className="text-base sm:text-lg md:text-xl text-white/40 font-normal max-w-xl mx-auto mb-12 sm:mb-16 leading-relaxed px-4"
-          >
-            Generate compelling, conversion-optimized product descriptions powered by advanced AI. In seconds.
+              className="text-base sm:text-lg md:text-xl text-white/50 font-normal max-w-2xl mx-auto mb-12 sm:mb-16 leading-[1.6] px-4"
+            >
+              Turn 10 hours of product copywriting into 10 seconds of AI magic. Paste your product, get three SEO-ready descriptions instantly.
           </motion.p>
 
           {/* Glass-effect Input */}
@@ -262,13 +262,13 @@ export default function Home() {
                           <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
                           <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                         </svg>
-                        <span>Generating...</span>
+                        <span>Writing your copy...</span>
                       </>
                     ) : hasGenerated ? (
-                      <span>Sign up for more</span>
+                        <span>Sign up to keep generating</span>
                     ) : (
                       <>
-                        <span>Generate</span>
+                        <span>Generate free sample</span>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                         </svg>
@@ -302,9 +302,9 @@ export default function Home() {
               className="mt-8 sm:mt-12 space-y-3 sm:space-y-4 px-4 sm:px-0"
             >
               <div className="flex items-center justify-between mb-4 sm:mb-6">
-                <h2 className="text-base sm:text-lg font-semibold text-white tracking-tight">
-                  Generated descriptions
-                </h2>
+                    <h2 className="text-base sm:text-lg font-semibold text-white tracking-tight">
+                      Here&apos;s your copy — ready to publish
+                    </h2>
               </div>
 
               <div className="stagger-children">
@@ -328,7 +328,7 @@ export default function Home() {
                         <svg className="w-3 sm:w-3.5 h-3 sm:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                         </svg>
-                        <span className="hidden sm:inline">{copiedKey === key ? 'Copied!' : 'Copy'}</span>
+                          <span className="hidden sm:inline">{copiedKey === key ? 'Copied!' : 'Copy to Clipboard'}</span>
                       </button>
                     </div>
                     <p className="text-xs sm:text-sm text-white/50 leading-relaxed">
@@ -345,11 +345,11 @@ export default function Home() {
                 className="mt-6 sm:mt-8 p-4 sm:p-6 glass-card text-center"
               >
                 <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
-                  Want to generate more?
-                </h3>
-                <p className="text-xs sm:text-sm text-white/40 mb-4">
-                  Sign up for free to get 10 more generations with advanced features.
-                </p>
+                    Like what you see?
+                  </h3>
+                    <p className="text-xs sm:text-sm text-white/40 mb-4">
+                      Create a free account and get 500 credits — enough to write descriptions for your entire catalog.
+                    </p>
                 <Link
                   href="/signup"
                   className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white text-black text-sm sm:text-base font-semibold rounded-full hover:bg-white/90 transition-all duration-200 shadow-lg shadow-white/10 active:scale-[0.98]"
@@ -375,14 +375,20 @@ export default function Home() {
                 <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                No credit card required
-              </span>
-              <span className="flex items-center gap-2">
-                <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                1 free generation, no signup
-              </span>
+                    No credit card required
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    3 description styles per product
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    Bulk CSV upload supported
+                </span>
             </motion.div>
           )}
         </div>

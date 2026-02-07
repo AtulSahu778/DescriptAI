@@ -105,7 +105,7 @@ export default function AnalyticsPage() {
       <div className="animate-fade-in">
         <div className="mb-10">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">Analytics</h1>
-          <p className="text-white/60">Track your generation usage and trends.</p>
+            <p className="text-white/60">See how you&apos;re using DescriptAI — generation volume, categories, and trends.</p>
         </div>
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           {[1, 2, 3].map((i) => (
@@ -133,7 +133,7 @@ export default function AnalyticsPage() {
       {/* Stats cards */}
       <div className="grid sm:grid-cols-3 gap-4 mb-8">
         <div className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:border-white/20 transition-all duration-150 ease-in-out">
-          <p className="text-xs font-medium text-white/60 uppercase tracking-wider mb-1">Total Generations</p>
+            <p className="text-xs font-medium text-white/60 uppercase tracking-wider mb-1">All-Time Generations</p>
           <p className="text-3xl font-bold text-white/90">{stats.total}</p>
         </div>
         <div className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:border-white/20 transition-all duration-150 ease-in-out">
@@ -141,14 +141,14 @@ export default function AnalyticsPage() {
           <p className="text-3xl font-bold text-white/90">{stats.thisMonth}</p>
         </div>
         <div className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:border-white/20 transition-all duration-150 ease-in-out">
-          <p className="text-xs font-medium text-white/60 uppercase tracking-wider mb-1">Most Used Tone</p>
+          <p className="text-xs font-medium text-white/60 uppercase tracking-wider mb-1">Favorite Tone</p>
           <p className="text-3xl font-bold text-white/90">{stats.topTone}</p>
         </div>
       </div>
 
       {/* Line Chart - Generations over time */}
       <div className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6 mb-6">
-        <h3 className="text-sm font-medium text-white/90 mb-4">Generations (Last 30 Days)</h3>
+          <h3 className="text-sm font-medium text-white/90 mb-4">Daily output (last 30 days)</h3>
         {dailyData.length > 0 ? (
           <ResponsiveContainer width="100%" height={280}>
             <LineChart data={dailyData}>
@@ -192,7 +192,7 @@ export default function AnalyticsPage() {
 
       {/* Bar Chart - By category */}
       <div className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6">
-        <h3 className="text-sm font-medium text-white/90 mb-4">Generations by Category</h3>
+          <h3 className="text-sm font-medium text-white/90 mb-4">Top categories</h3>
         {categoryData.length > 0 ? (
           <ResponsiveContainer width="100%" height={280}>
             <BarChart data={categoryData}>

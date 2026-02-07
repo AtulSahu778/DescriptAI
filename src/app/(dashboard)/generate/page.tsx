@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
+import Image from "next/image";
 import { toast } from "@/components/toaster";
 import KeywordPills from "@/components/keyword-pills";
 import { parseGenerateStream } from "@/lib/stream-parser";
@@ -179,12 +180,12 @@ export default function GeneratePage() {
     <div className="animate-fade-in">
       {/* Header */}
       <div className="mb-8 sm:mb-10">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">
-          Generate descriptions
-        </h1>
-        <p className="text-white/60 text-sm sm:text-base">
-          Enter your product details and let AI create compelling copy.
-        </p>
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">
+            Create product copy
+          </h1>
+          <p className="text-white/60 text-sm sm:text-base">
+            Fill in the details and we&apos;ll write three publish-ready descriptions.
+          </p>
       </div>
 
         {/* Form */}
@@ -221,11 +222,14 @@ export default function GeneratePage() {
               </div>
             ) : (
               <div className="relative inline-block">
-                <img
-                  src={imagePreview}
-                  alt="Product preview"
-                  className="h-32 w-32 object-cover rounded-lg border border-white/10"
-                />
+                <Image
+                    src={imagePreview}
+                    alt="Product preview"
+                    width={128}
+                    height={128}
+                    unoptimized
+                    className="h-32 w-32 object-cover rounded-lg border border-white/10"
+                  />
                 {analyzing && (
                   <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center">
                     <svg className="animate-spin h-6 w-6 text-white" viewBox="0 0 24 24" fill="none">
@@ -257,7 +261,7 @@ export default function GeneratePage() {
             <input
               id="productName"
               type="text"
-              placeholder="e.g. Wireless Noise-Cancelling Headphones"
+                placeholder="e.g., Organic Cotton T-Shirt"
               value={productName}
               onChange={(e) => setProductName(e.target.value)}
               required
@@ -290,7 +294,7 @@ export default function GeneratePage() {
           </label>
           <textarea
             id="features"
-            placeholder="e.g. 40-hour battery life, active noise cancellation, premium comfort"
+                placeholder="What makes this product special? (materials, tech, benefits)"
             value={features}
             onChange={(e) => setFeatures(e.target.value)}
             rows={3}
@@ -306,7 +310,7 @@ export default function GeneratePage() {
             <input
               id="audience"
               type="text"
-              placeholder="e.g. Remote workers, music lovers"
+                placeholder="Who is this for? (e.g., eco-conscious millennials)"
               value={audience}
               onChange={(e) => setAudience(e.target.value)}
               className="input-base"
@@ -364,10 +368,10 @@ export default function GeneratePage() {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
               </svg>
-              Generating...
-            </span>
-          ) : (
-            "Generate descriptions"
+                  Writing your descriptions...
+              </span>
+            ) : (
+              "Generate descriptions"
           )}
         </button>
       </form>
@@ -392,9 +396,9 @@ export default function GeneratePage() {
       {results && !loading && (
         <div className="space-y-4 animate-slide-up">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-semibold text-white/90 tracking-tightest">
-              Generated descriptions
-            </h2>
+              <h2 className="text-lg font-semibold text-white/90 tracking-tightest">
+                Your descriptions
+              </h2>
             <button
               onClick={handleRegenerate}
               className="text-sm text-white/60 hover:text-white/90 transition-colors duration-150 flex items-center gap-1.5"

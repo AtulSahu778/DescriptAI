@@ -63,29 +63,29 @@ export default function HistoryPage() {
           </h1>
           <p className="text-white/60">
             Your previously generated descriptions.
-          </p>
+            </p>
+          </div>
+          <div className="space-y-3">
+            {[1, 2, 3].map((i) => (
+              <div key={i} className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6">
+                <div className="h-4 w-40 rounded-md shimmer-loading mb-3" />
+                <div className="h-3 w-24 rounded-md shimmer-loading" />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="space-y-3">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-lg p-6">
-              <div className="h-4 w-40 rounded-md shimmer-loading mb-3" />
-              <div className="h-3 w-24 rounded-md shimmer-loading" />
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  }
+      );
+    }
 
-  return (
-    <div className="animate-fade-in">
-      {/* Header */}
-      <div className="mb-10">
-        <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">
-          History
-        </h1>
-        <p className="text-white/60">
-          Your previously generated descriptions.
+    return (
+      <div className="animate-fade-in">
+        {/* Header */}
+        <div className="mb-10">
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">
+            History
+          </h1>
+          <p className="text-white/60">
+            Your previously generated descriptions.
         </p>
       </div>
 
@@ -96,10 +96,10 @@ export default function HistoryPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <p className="text-lg font-medium text-white/90 mb-1">No descriptions yet</p>
-          <p className="text-sm text-white/60">
-            Generate your first product description to see it here.
-          </p>
+            <p className="text-lg font-medium text-white/90 mb-1">Nothing here yet</p>
+            <p className="text-sm text-white/60">
+              Descriptions you generate will show up here so you can revisit or copy them later.
+            </p>
         </div>
       ) : (
         <div className="space-y-3">
@@ -164,7 +164,7 @@ export default function HistoryPage() {
                       <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                       </svg>
-                      Delete
+                        Remove
                     </button>
                   </div>
                 )}

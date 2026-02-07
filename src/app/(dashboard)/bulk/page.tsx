@@ -294,8 +294,8 @@ export default function BulkPage() {
   return (
     <div className="animate-fade-in">
       <div className="mb-10">
-        <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">Bulk Upload</h1>
-        <p className="text-white/60">Upload a CSV file to generate descriptions for multiple products at once.</p>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">Bulk generate</h1>
+          <p className="text-white/60">Upload a CSV with your products and generate descriptions for all of them at once.</p>
       </div>
 
       {/* Template download */}
@@ -307,7 +307,7 @@ export default function BulkPage() {
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
           </svg>
-          Download CSV template
+              Download CSV template
         </button>
       </div>
 
@@ -326,10 +326,10 @@ export default function BulkPage() {
           <svg className="w-10 h-10 text-white/38 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
           </svg>
-          <p className="text-sm text-white/90 mb-1">
-            {fileName ? fileName : "Drag and drop your CSV file here"}
-          </p>
-          <p className="text-xs text-white/38 mb-4">or click to browse</p>
+            <p className="text-sm text-white/90 mb-1">
+              {fileName ? fileName : "Drop your CSV here"}
+            </p>
+            <p className="text-xs text-white/38 mb-4">or click to browse — max 100 products per file</p>
           <input
             type="file"
             accept=".csv"

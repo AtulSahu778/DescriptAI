@@ -112,7 +112,7 @@ export default function VoicesPage() {
       <div className="animate-fade-in">
         <div className="mb-10">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">Brand Voices</h1>
-          <p className="text-white/60">Create and manage your brand voice profiles.</p>
+            <p className="text-white/60">Define how your brand sounds — we&apos;ll match it in every description.</p>
         </div>
         <div className="space-y-3">
           {[1, 2].map((i) => (
@@ -131,7 +131,7 @@ export default function VoicesPage() {
       <div className="flex items-center justify-between mb-10">
         <div>
           <h1 className="text-2xl md:text-3xl font-bold tracking-tightest text-white/90 mb-2">Brand Voices</h1>
-          <p className="text-white/60">Create and manage your brand voice profiles.</p>
+            <p className="text-white/60">Define how your brand sounds — we&apos;ll match it in every description.</p>
         </div>
         {!showForm && (
           <button
@@ -236,8 +236,8 @@ export default function VoicesPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
             </svg>
           </div>
-          <p className="text-lg font-medium text-white/90 mb-1">No brand voices yet</p>
-          <p className="text-sm text-white/60">Create a brand voice to customize generated descriptions.</p>
+            <p className="text-lg font-medium text-white/90 mb-1">No brand voices yet</p>
+            <p className="text-sm text-white/60">Create your first voice profile to get consistent, on-brand copy every time.</p>
         </div>
       ) : (
         <div className="space-y-3">

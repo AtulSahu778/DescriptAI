@@ -60,11 +60,11 @@ export default function SignupPage() {
               </h2>
             </Link>
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white mb-2">
-              Create your account
-            </h1>
-            <p className="text-white/40 text-sm">
-              Start generating product descriptions for free.
-            </p>
+                Start writing better copy
+              </h1>
+              <p className="text-white/40 text-sm">
+                Free to start — 500 credits included, no card required.
+              </p>
           </div>
 
           <form onSubmit={handleSignup} className="space-y-4">
@@ -111,7 +111,7 @@ export default function SignupPage() {
                   Creating account...
                 </span>
               ) : (
-                "Sign up"
+                "Create free account"
               )}
             </button>
           </form>

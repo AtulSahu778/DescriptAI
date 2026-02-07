@@ -64,9 +64,9 @@ function LoginForm() {
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white mb-2">
               Welcome back
             </h1>
-            <p className="text-white/40 text-sm">
-              Log in to your DescriptAI account.
-            </p>
+              <p className="text-white/40 text-sm">
+                Sign in to pick up where you left off.
+              </p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
@@ -109,10 +109,10 @@ function LoginForm() {
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                   </svg>
-                  Logging in...
+                  Signing in...
                 </span>
               ) : (
-                "Log in"
+                  "Sign in"
               )}
             </button>
           </form>
