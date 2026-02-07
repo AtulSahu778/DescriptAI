@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DescriptAI
 
-## Getting Started
+AI-powered product description generator. Feed it a product name, category, and a few keywords — get back three publish-ready descriptions (SEO, emotional, short-form) in seconds.
 
-First, run the development server:
+Built for e-commerce teams, marketers, and solo founders who need high-volume product copy without the agency price tag.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## What It Does
+
+- **Single generation** — Enter a product name, pick a tone, and get three description variants (SEO-optimized, emotionally compelling, short-form for ads).
+- **Bulk generation** — Upload a CSV with up to 100 products. Each row gets processed individually and saved to your history.
+- **Image analysis** — Upload a product photo. The system extracts product name, category, and features automatically using Google Gemini, then pre-fills the generation form.
+- **Brand voices** — Define reusable voice profiles with tone adjectives and writing samples. Apply them during generation so every description sounds like your brand.
+- **History** — Every generation is stored. Browse, copy, or delete past descriptions from the dashboard.
+- **Analytics** — Track daily output volume, top categories, and favorite tones over time.
+- **Credits system** — Free tier starts with 50 credits. Each generation (single or bulk item) costs 1 credit.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| UI Components | Radix UI, Lucide Icons |
+| Animation | Framer Motion |
+| Auth + Database | Supabase (Auth, Postgres, RLS) |
+| AI — Text | Groq (Llama 3.3 70B) |
+| AI — Vision | Google Gemini 2.5 Flash |
+| Rate Limiting / Cache | Upstash Redis |
+| CSV Parsing | PapaParse |
+| Charts | Recharts |
+
+---
+
+## Project Structure
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+├── app/
+│   ├── page.tsx                          # Landing page with trial generation
+│   ├── login/page.tsx                    # Login
+│   ├── signup/page.tsx                   # Signup
+│   ├── layout.tsx                        # Root layout
+│   ├── (dashboard)/
+│   │   ├── layout.tsx                    # Sidebar layout wrapper
+│   │   ├── generate/page.tsx             # Single product generation
+│   │   ├── bulk/page.tsx                 # CSV bulk upload + processing
+│   │   ├── history/page.tsx              # Past generations list
+│   │   ├── voices/page.tsx               # Brand voice management
+│   │   └── analytics/page.tsx            # Usage charts and stats
+│   └── api/
+│       ├── generate/route.ts             # Authenticated generation (streamed)
+│       ├── generate-trial/route.ts       # Unauthenticated trial generation (streamed)
+│       ├── analyze-image/route.ts        # Product image analysis via Gemini
+│       ├── voices/route.ts               # CRUD for brand voices
+│       ├── user/credits/route.ts         # Credit balance check
+│       ├── keywords/suggest/route.ts     # SEO keyword suggestions
+│       ├── keywords/related/route.ts     # Related keyword expansion
+│       ├── bulk/upload/route.ts          # Create bulk job + validate credits
+│       ├── bulk/process-chunk/route.ts   # Process one bulk item
+│       ├── bulk/status/[jobId]/route.ts  # Poll bulk job progress
+│       └── bulk/process/route.ts         # Deprecated (returns 410)
+├── components/
+│   ├── app-layout.tsx                    # Dashboard sidebar + header
+│   ├── keyword-pills.tsx                 # Keyword tag input
+│   ├── gradient-mesh.tsx                 # Background decoration
+│   ├── page-transition.tsx               # Route
