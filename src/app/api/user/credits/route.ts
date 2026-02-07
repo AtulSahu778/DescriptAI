@@ -4,6 +4,15 @@ import { NextResponse } from "next/server";
 import { getOrCreateProfile } from "@/lib/credits";
 
 export async function GET() {
+  // Check env vars first
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    return NextResponse.json({
+      error: "Missing environment variables",
+      hasUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+      hasKey: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+    }, { status: 500 });
+  }
+
   const cookieStore = await cookies();
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
