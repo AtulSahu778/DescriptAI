@@ -5,8 +5,8 @@ import Groq from "groq-sdk";
 import { getOrCreateProfile, decrementCredits, logUsage } from "@/lib/credits";
 import { buildBrandVoicePrompt, type BrandVoice } from "@/lib/brand-voice";
 
-// Allow up to 60s on Pro plan; streaming keeps free tier alive past 10s
-export const maxDuration = 60;
+// Vercel free tier limit is 10s; streaming keeps connection alive
+export const maxDuration = 10;
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
