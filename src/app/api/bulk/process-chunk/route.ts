@@ -5,6 +5,7 @@ import { decrementCredits } from "@/lib/credits";
 import { checkRequiredEnvVars } from "@/lib/env-check";
 import Groq from "groq-sdk";
 
+export const dynamic = "force-dynamic";
 export const maxDuration = 10;
 
 type BulkItem = {

@@ -5,28 +5,30 @@ import Groq from "groq-sdk";
 import { getOrCreateProfile, decrementCredits, logUsage } from "@/lib/credits";
 import { buildBrandVoicePrompt, type BrandVoice } from "@/lib/brand-voice";
 
+export const dynamic = "force-dynamic";
 // Vercel free tier limit is 10s; streaming keeps connection alive
 export const maxDuration = 10;
 
 export async function POST(request: Request) {
-  const cookieStore = await cookies();
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() { return cookieStore.getAll(); },
-        setAll(cookiesToSet) {
-          try { cookiesToSet.forEach(({ name, value, options }) => cookieStore.set(name, value, options)); } catch { }
+  try {
+    const cookieStore = await cookies();
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      {
+        cookies: {
+          getAll() { return cookieStore.getAll(); },
+          setAll(cookiesToSet) {
+            try { cookiesToSet.forEach(({ name, value, options }) => cookieStore.set(name, value, options)); } catch { }
+          },
         },
-      },
-    }
-  );
+      }
+    );
 
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
 
   // Check credits
   const profile = await getOrCreateProfile(supabase, user.id);
@@ -161,8 +163,12 @@ Return this exact JSON format:
         "Cache-Control": "no-cache",
       },
     });
-  } catch (err: unknown) {
-    console.error("Generation error:", err);
-    return NextResponse.json({ error: "Failed to generate descriptions" }, { status: 500 });
+    } catch (err: unknown) {
+      console.error("Generation error:", err);
+      return NextResponse.json({ error: "Failed to generate descriptions" }, { status: 500 });
+    }
+  } catch (err) {
+    console.error("POST /api/generate error:", err);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import Groq from "groq-sdk";
 
-// Allow up to 60s on Pro plan; streaming keeps free tier alive past 10s
-export const maxDuration = 60;
+export const dynamic = "force-dynamic";
+// Vercel free tier limit is 10s; streaming keeps connection alive
+export const maxDuration = 10;
 
 export async function POST(request: Request) {
   const { productName, category, features, audience, tone } = await request.json();
