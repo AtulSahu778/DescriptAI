@@ -1,0 +1,560 @@
+2026-02-06T11:19:19.898Z [console][warn] No valid session found
+2026-02-06T11:35:14.395Z [console][warn] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+2026-02-06T13:32:18.361Z [console][warn] [Fast Refresh] done in 25ms
+2026-02-06T13:32:18.708Z [console][warn] [Fast Refresh] done in 372ms
+2026-02-06T13:32:18.945Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T13:33:13.043Z [console][error] Generation error: Error: Unauthorized
+2026-02-06T13:33:39.179Z [console][warn] [Fast Refresh] rebuilding
+2026-02-06T13:33:39.576Z [console][warn] [Fast Refresh] rebuilding
+2026-02-06T13:33:39.608Z [console][warn] [Fast Refresh] done in 33ms
+2026-02-06T13:33:40.115Z [console][warn] [Fast Refresh] done in 540ms
+2026-02-06T13:33:40.225Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T13:32:18.080Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T13:32:18.336Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T13:32:18.361Z [console][log] [Fast Refresh] done in 25ms
+2026-02-06T13:32:18.708Z [console][log] [Fast Refresh] done in 372ms
+2026-02-06T13:32:18.945Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T13:33:13.043Z [console][error] Generation error: Error: Unauthorized
+    at handleGenerate (webpack-internal:///(app-pages-browser)/./src/app/page.tsx:78:23)
+2026-02-06T13:33:39.179Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T13:33:39.575Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T13:33:39.608Z [console][log] [Fast Refresh] done in 33ms
+2026-02-06T13:33:40.115Z [console][log] [Fast Refresh] done in 540ms
+2026-02-06T13:33:40.225Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T13:32:18.353Z [network][GET 200] /_next/static/webpack/8395e1b1a83c7fb6.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T13:32:18.681Z [network][GET 200] /_next/static/webpack/65f86e6db882513c.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T13:32:18.893Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T13:32:18.937Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T13:33:13.044Z [network][POST 401] /api/generate
+  request: {"productName":"joo\n","category":"","features":"","audience":"","tone":"professional"}
+  response: {"error":"Unauthorized"}
+2026-02-06T13:33:39.584Z [network][GET 200] /_next/static/webpack/601aa4fd99ef8649.webpack.hot-update.json
+  response: {"c":["app/page","app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T13:33:40.091Z [network][GET 200] /_next/static/webpack/895d6b6c29f137f0.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T13:33:40.218Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T13:26:04.113Z [console][error] Uncaught SyntaxError: Invalid or unexpected token
+2026-02-06T13:33:13.043Z [console][error] Generation error: Error: Unauthorized
+2026-02-06T16:24:07.297Z [console][warn] [Fast Refresh] rebuilding
+2026-02-06T16:24:07.649Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:17:21.938Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:17:22.836Z [console][log] [Fast Refresh] done in 899ms
+2026-02-06T16:17:22.910Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:17:23.037Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:18:08.460Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:18:08.730Z [console][log] [Fast Refresh] done in 263ms
+2026-02-06T16:18:08.793Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:18:20.202Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:18:20.507Z [console][log] [Fast Refresh] done in 305ms
+2026-02-06T16:18:20.574Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:18:57.644Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:18:58.901Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:18:59.213Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:19:02.618Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:24:06.263Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:24:06.819Z [console][log] [Fast Refresh] done in 555ms
+2026-02-06T16:24:07.298Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:24:07.649Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:17:22.815Z [network][GET 200] /_next/static/webpack/fdf6001da5d396c3.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":["app/_not-found/page"],"m":["(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=E%3A%5CDescriptAI%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Ccomponents%5Cnot-found-error.js&page=%2F_not-found%2Fpage!","(app-pages-browser)/./node_modules/next/dist/client/components/not-found-error.js"]}
+2026-02-06T16:17:22.916Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:17:24.219Z [network][GET 404] /_next/static/webpack/f92fbf76d8c98644.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770394644028" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770394644028"/><script src="/_next/static/chunks/main-app.js?v=1770394644028" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770394644028" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:18:08.689Z [network][GET 200] /_next/static/webpack/f92fbf76d8c98644.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T16:18:08.752Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:18:08.883Z [network][GET 404] /_next/static/webpack/71da795f5cfe4c0c.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770394688771" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770394688771"/><script src="/_next/static/chunks/main-app.js?v=1770394688771" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770394688771" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:18:20.484Z [network][GET 200] /_next/static/webpack/71da795f5cfe4c0c.webpack.hot-update.json
+  response: {"c":["app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T16:18:20.559Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:18:20.579Z [network][GET 404] /_next/static/webpack/32766a7390502127.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770394700542" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770394700542"/><script src="/_next/static/chunks/main-app.js?v=1770394700542" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770394700542" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:18:58.853Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:19:02.481Z [network][GET 404] /_next/static/webpack/32766a7390502127.webpack.hot-update.json
+  response: <!DOCTYPE html><html><head><style data-next-hide-fouc="true">body{display:none}</style><noscript data-next-hide-fouc="true"><style>body{display:block}</style></noscript><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills.js"></script><script src="/_next/static/chunks/webpack.js" defer=""></script><script src="/_next/static/chunks/main.js" defer=""></script><script src="/_next/static/chunks/pages/_app.js" defer=""></script><script src="/_next/static/chunks/pages/_error.js" defer=""></script><script src="/_next/static/development/_buildManifest.js" defer=""></script><script src="/_next/static/development/_ssgManifest.js" defer=""></script><noscript id="__next_css__DO_NOT_USE__"></noscript></head><body><div id="__next"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="line-height:48px"><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:28px">This page could not be found<!-- -->.</h2></div></div></div></div><script src="/_next/static/chunks/react-refresh.js"></script><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":404}},"page":"/_error","query":{},"buildId":"development","isFallback":false,"gip"... [truncated]
+2026-02-06T16:19:02.481Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:19:02.596Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:24:06.798Z [network][GET 200] /_next/static/webpack/32766a7390502127.webpack.hot-update.json
+  response: {"c":["app/(dashboard)/generate/page","app/layout","webpack"],"r":[],"m":[]}
+2026-02-06T16:24:06.835Z [network][GET 200] /_next/static/webpack/d2d7159512dffefd.webpack.hot-update.json
+  response: {"c":["webpack"],"r":[],"m":[]}
+2026-02-06T16:24:06.879Z [network][GET 200] /_next/static/webpack/7fc0da9dc135160b.webpack.hot-update.json
+  response: {"c":["webpack"],"r":[],"m":[]}
+2026-02-06T16:24:06.944Z [network][GET 200] /_next/static/webpack/f804057fb0ff06c3.webpack.hot-update.json
+  response: {"c":["webpack"],"r":[],"m":[]}
+2026-02-06T16:24:06.997Z [network][GET 200] /_next/static/webpack/641c04dd277750f6.webpack.hot-update.json
+  response: {"c":["app/layout","app/page","webpack"],"r":["app/_not-found/page"],"m":["(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=E%3A%5CDescriptAI%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Ccomponents%5Cnot-found-error.js&page=%2F_not-found%2Fpage!","(app-pages-browser)/./node_modules/next/dist/client/components/not-found-error.js"]}
+2026-02-06T16:24:07.607Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:24:08.055Z [network][GET 404] /_next/static/webpack/69c40ff307a24492.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770395047878" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770395047878"/><script src="/_next/static/chunks/main-app.js?v=1770395047878" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770395047878" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:10:15.385Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at Toaster (webpack-internal:///(app-pages-browser)/./src/components/toaster.tsx:24:80)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-06T16:15:21.979Z [console][error] Uncaught (in promise) #<Event>
+2026-02-06T16:16:28.827Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at Toaster (webpack-internal:///(app-pages-browser)/./src/components/toaster.tsx:24:80)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-06T16:25:38.614Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at div
+    at Home (webpack-internal:///(app-pages-browser)/./src/app/page.tsx:27:82)
+    at ClientPageRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js:14:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-06T16:27:46.696Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at Toaster (webpack-internal:///(app-pages-browser)/./src/components/toaster.tsx:24:80)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-06T16:50:17.584Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:50:17.885Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:50:20.890Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:50:20.981Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:50:21.290Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:52:00.403Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:00.567Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:00.912Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:52:14.165Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:14.243Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:14.528Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:52:21.952Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:22.027Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:22.250Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:52:25.123Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:25.208Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:25.581Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:52:46.799Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:46.909Z [console][log] [Fast Refresh] rebuilding
+2026-02-06T16:52:47.233Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3002/
+2026-02-06T16:49:48.464Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396588441" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396588441"/><script src="/_next/static/chunks/main-app.js?v=1770396588441" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396588441" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:49:48.494Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:50:01.378Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396601353" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396601353"/><script src="/_next/static/chunks/main-app.js?v=1770396601353" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396601353" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:50:01.404Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:50:11.051Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396611031" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396611031"/><script src="/_next/static/chunks/main-app.js?v=1770396611031" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396611031" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:50:11.076Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:50:17.856Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396617827" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396617827"/><script src="/_next/static/chunks/main-app.js?v=1770396617827" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396617827" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:50:17.881Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:50:21.267Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396621230" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396621230"/><script src="/_next/static/chunks/main-app.js?v=1770396621230" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396621230" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:50:21.286Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:52:00.862Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396720797" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396720797"/><script src="/_next/static/chunks/main-app.js?v=1770396720797" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396720797" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:52:00.902Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:52:14.500Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396734476" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396734476"/><script src="/_next/static/chunks/main-app.js?v=1770396734476" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396734476" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:52:14.523Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:52:22.228Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396742210" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396742210"/><script src="/_next/static/chunks/main-app.js?v=1770396742210" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396742210" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:52:22.246Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:52:25.555Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396745531" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396745531"/><script src="/_next/static/chunks/main-app.js?v=1770396745531" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396745531" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:52:25.575Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-06T16:52:47.215Z [network][GET 404] /_next/static/webpack/69a94255ac109e68.webpack.hot-update.json
+  response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1770396767188" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1770396767188"/><script src="/_next/static/chunks/main-app.js?v=1770396767188" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><title>404: This page could not be found.</title><title>DescriptAI - AI Product Description Generator</title><meta name="description" content="Generate compelling product descriptions in seconds with AI"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="antialiased"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div><script src="/_next/static/chunks/webpack.js?v=1770396767188" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>se... [truncated]
+2026-02-06T16:52:47.229Z [network][GET 200] 
+  response: 2:I["(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js",["app-pages-internals","static/chunks/app-pages-internals.js"],"ClientPageRoot"]
+3:I["(app-pages-browser)/./src/app/page.tsx",["app/page","static/chunks/app/page.js"],"default",1]
+5:I["(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+6:I["(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js",["app-pages-internals","static/chunks/app-pages-internals.js"],""]
+8:I["(app-pages-browser)/./src/components/toaster.tsx",["app/layout","static/chunks/app/layout.js"],"Toaster"]
+1:D{"name":"","env":"Server"}
+4:D{"name":"RootLayout","env":"Server"}
+7:D{"name":"NotFound","env":"Server"}
+7:[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]
+4:["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L5",null... [truncated]
+2026-02-07T06:41:56.888Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:17.652Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:40.954Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:57.155Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:44:18.586Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:48:45.197Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:49:07.192Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:52:47.096Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at div
+    at Home (webpack-internal:///(app-pages-browser)/./src/app/page.tsx:30:82)
+    at ClientPageRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js:14:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-07T06:57:55.861Z [console][error] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree.
+2026-02-07T06:52:47.095Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at div
+    at Home (webpack-internal:///(app-pages-browser)/./src/app/page.tsx:30:82)
+    at ClientPageRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js:14:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:...
+2026-02-07T06:30:22.811Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:30:59.408Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:31:09.822Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:31:21.504Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:31:30.855Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:32:38.691Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:32:50.127Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:33:48.225Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:34:59.161Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:39:17.974Z [console][error] Uncaught TypeError: __webpack_modules__[moduleId] is not a function
+2026-02-07T06:41:28.426Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:41:43.540Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:41:56.888Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:17.652Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:40.954Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:43:57.155Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:44:18.586Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:48:45.197Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:49:07.192Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-07T06:52:47.096Z [console][error] Warning: Extra attributes from the server: %s%s data-orchid-ref 
+    at div
+    at div
+    at Home (webpack-internal:///(app-pages-browser)/./src/app/page.tsx:30:82)
+    at ClientPageRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js:14:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)
+    at body
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+2026-02-07T06:59:48.332Z [console][warn] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+2026-02-07T07:10:41.972Z [console][warn] [Fast Refresh] rebuilding
+2026-02-07T07:10:42.909Z [console][warn] [Fast Refresh] rebuilding
+2026-02-07T07:10:43.137Z [console][warn] [Fast Refresh] done in 250ms
+2026-02-07T07:10:43.469Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3001/
+2026-02-07T07:10:43.474Z [console][error] Uncaught (in promise) #<Event>
+2026-02-07T07:10:43.477Z [console][warn] [Fast Refresh] rebuilding
+2026-02-07T07:10:43.897Z [console][warn] [Fast Refresh] rebuilding
+2026-02-07T07:10:45.490Z [console][warn] [Fast Refresh] done in 1593ms
+2026-02-07T07:11:00.472Z [console][warn] [Fast Refresh] rebuilding
