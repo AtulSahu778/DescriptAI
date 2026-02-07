@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -95,27 +96,27 @@ export default function Home() {
     setError(null);
 
     try {
-        const res = await fetch("/api/generate-trial", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ 
-            productName: inputValue,
-            category: "",
-            features: "",
-            audience: "",
-            tone: tone
-          }),
-        });
+      const res = await fetch("/api/generate-trial", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productName: inputValue,
+          category: "",
+          features: "",
+          audience: "",
+          tone: tone
+        }),
+      });
 
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({ error: "Generation failed" }));
-          throw new Error(data.error || "Generation failed");
-        }
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({ error: "Generation failed" }));
+        throw new Error(data.error || "Generation failed");
+      }
 
-        const data = await parseGenerateStream(res);
-        setResults(data);
-        setHasGenerated(true);
-        localStorage.setItem('hasGeneratedOnce', 'true');
+      const data = await parseGenerateStream(res);
+      setResults(data);
+      setHasGenerated(true);
+      localStorage.setItem('hasGeneratedOnce', 'true');
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : "Generation failed";
       setError(message);
@@ -146,8 +147,14 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/80 backdrop-blur-md border-b border-white/[0.06]">
         <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 sm:py-5">
-          <Link href="/" className="text-lg sm:text-xl font-semibold tracking-tight text-white">
-            DescriptAI
+          <Link href="/" className="flex items-center gap-2 text-lg sm:text-xl font-semibold tracking-tight text-white">
+            <Image
+              src="/logo.png"
+              alt="DescriptAI"
+              width={40}
+              height={40}
+              className="rounded-lg"
+            />
           </Link>
           <div className="flex items-center gap-3 sm:gap-6">
             <Link
@@ -222,33 +229,31 @@ export default function Home() {
                 />
 
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-0 px-4 sm:px-6 py-3 sm:py-4 border-t border-white/5">
-                    <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto pb-2 sm:pb-0">
-                      {([
-                        { value: "seo", label: "SEO" },
-                        { value: "storytelling", label: "Story" },
-                        { value: "technical", label: "Technical" },
-                      ] as const).map((t) => (
-                        <button
-                          key={t.value}
-                          onClick={() => setTone(t.value)}
-                          className={`px-2.5 sm:px-3 py-1 sm:py-1.5 text-xs font-medium rounded-full transition-all duration-200 whitespace-nowrap ${
-                            tone === t.value
-                              ? 'bg-white/15 text-white border border-white/20'
-                              : 'text-white/40 bg-white/5 hover:bg-white/10 hover:text-white/70 border border-transparent'
+                  <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto pb-2 sm:pb-0">
+                    {([
+                      { value: "seo", label: "SEO" },
+                      { value: "storytelling", label: "Story" },
+                      { value: "technical", label: "Technical" },
+                    ] as const).map((t) => (
+                      <button
+                        key={t.value}
+                        onClick={() => setTone(t.value)}
+                        className={`px-2.5 sm:px-3 py-1 sm:py-1.5 text-xs font-medium rounded-full transition-all duration-200 whitespace-nowrap ${tone === t.value
+                          ? 'bg-white/15 text-white border border-white/20'
+                          : 'text-white/40 bg-white/5 hover:bg-white/10 hover:text-white/70 border border-transparent'
                           }`}
-                        >
-                          {t.label}
-                        </button>
-                      ))}
-                    </div>
+                      >
+                        {t.label}
+                      </button>
+                    ))}
+                  </div>
 
                   <button
                     onClick={handleGenerate}
-                    className={`flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-medium rounded-full transition-all duration-200 ${
-                      inputValue.trim() && !generating
-                        ? 'bg-white text-[#0A0A0A] hover:bg-white/90 shadow-lg shadow-white/10 active:scale-[0.98]'
-                        : 'bg-white/10 text-white/25 cursor-not-allowed'
-                    }`}
+                    className={`flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-medium rounded-full transition-all duration-200 ${inputValue.trim() && !generating
+                      ? 'bg-white text-[#0A0A0A] hover:bg-white/90 shadow-lg shadow-white/10 active:scale-[0.98]'
+                      : 'bg-white/10 text-white/25 cursor-not-allowed'
+                      }`}
                     disabled={!inputValue.trim() || generating}
                   >
                     {generating ? (

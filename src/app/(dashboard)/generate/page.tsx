@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { toast } from "@/components/toaster";
 import KeywordPills from "@/components/keyword-pills";
 import { parseGenerateStream } from "@/lib/stream-parser";
@@ -26,6 +26,11 @@ export default function GeneratePage() {
   const [voiceId, setVoiceId] = useState("");
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<Descriptions>(null);
+
+  // Image upload
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [analyzing, setAnalyzing] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Brand voices
   const [voices, setVoices] = useState<BrandVoice[]>([]);
@@ -119,6 +124,57 @@ export default function GeneratePage() {
     setFeatures((prev) => prev ? `${prev}, ${keyword}` : keyword);
   };
 
+  const handleImageUpload = async (file: File) => {
+    const allowedTypes = ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"];
+    if (!allowedTypes.includes(file.type)) {
+      toast("Unsupported format. Use JPEG, PNG, or WebP.", "error");
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      toast("Image must be under 10MB", "error");
+      return;
+    }
+
+    // Show preview
+    const reader = new FileReader();
+    reader.onload = (e) => setImagePreview(e.target?.result as string);
+    reader.readAsDataURL(file);
+
+    // Analyze
+    setAnalyzing(true);
+    try {
+      const formData = new FormData();
+      formData.append("image", file);
+      const res = await fetch("/api/analyze-image", { method: "POST", body: formData });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({ error: "Analysis failed" }));
+        toast(data.error || "Analysis failed", "error");
+        return;
+      }
+      const data = await res.json();
+      if (data.productName) setProductName(data.productName);
+      if (data.category) setCategory(data.category);
+      if (data.features) setFeatures(data.features);
+      if (data.audience) setAudience(data.audience);
+      toast("Image analyzed — fields auto-filled!");
+    } catch {
+      toast("Failed to analyze image", "error");
+    } finally {
+      setAnalyzing(false);
+    }
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    const file = e.dataTransfer.files[0];
+    if (file) handleImageUpload(file);
+  };
+
+  const clearImage = () => {
+    setImagePreview(null);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
   return (
     <div className="animate-fade-in">
       {/* Header */}
@@ -131,9 +187,69 @@ export default function GeneratePage() {
         </p>
       </div>
 
-      {/* Form */}
-      <form onSubmit={handleGenerate} className="space-y-6 mb-12">
-        <div className="grid sm:grid-cols-2 gap-4">
+        {/* Form */}
+        <form onSubmit={handleGenerate} className="space-y-6 mb-12">
+          {/* Image Upload */}
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-white/90">
+              Product Image <span className="text-white/40 font-normal">(optional — auto-fills fields)</span>
+            </label>
+            {!imagePreview ? (
+              <div
+                onDrop={handleDrop}
+                onDragOver={(e) => e.preventDefault()}
+                onClick={() => fileInputRef.current?.click()}
+                className="border border-dashed border-white/15 rounded-lg p-8 text-center cursor-pointer hover:border-white/30 hover:bg-white/[0.02] transition-all duration-150"
+              >
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/jpeg,image/png,image/webp"
+                  className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) handleImageUpload(file);
+                  }}
+                />
+                <svg className="w-8 h-8 mx-auto mb-3 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
+                </svg>
+                <p className="text-sm text-white/50">
+                  Drop a product image here or <span className="text-white/80 underline underline-offset-2">browse</span>
+                </p>
+                <p className="text-xs text-white/30 mt-1">JPEG, PNG, WebP up to 10MB</p>
+              </div>
+            ) : (
+              <div className="relative inline-block">
+                <img
+                  src={imagePreview}
+                  alt="Product preview"
+                  className="h-32 w-32 object-cover rounded-lg border border-white/10"
+                />
+                {analyzing && (
+                  <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center">
+                    <svg className="animate-spin h-6 w-6 text-white" viewBox="0 0 24 24" fill="none">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                    </svg>
+                  </div>
+                )}
+                {!analyzing && (
+                  <button
+                    type="button"
+                    onClick={clearImage}
+                    className="absolute -top-2 -right-2 bg-white/10 hover:bg-white/20 rounded-full p-1 transition-colors"
+                  >
+                    <svg className="w-3.5 h-3.5 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-4">
           <div className="space-y-2">
             <label htmlFor="productName" className="block text-sm font-medium text-white/90">
               Product Name <span className="text-red-400">*</span>

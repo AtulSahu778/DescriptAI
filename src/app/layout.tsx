@@ -5,6 +5,13 @@ import { Toaster } from "@/components/toaster";
 export const metadata: Metadata = {
   title: "DescriptAI - AI Product Description Generator",
   description: "Generate compelling product descriptions in seconds with AI",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

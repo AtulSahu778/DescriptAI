@@ -4,6 +4,7 @@ import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { toast } from "@/components/toaster";
 import { motion } from "framer-motion";
 import GradientMesh from "@/components/gradient-mesh";
@@ -46,7 +47,14 @@ export default function SignupPage() {
           className="w-full max-w-sm"
         >
           <div className="text-center mb-8 sm:mb-10">
-            <Link href="/" className="inline-block mb-4 sm:mb-6">
+            <Link href="/" className="inline-flex flex-col items-center gap-2 mb-4 sm:mb-6">
+              <Image
+                src="/logo.png"
+                alt="DescriptAI Logo"
+                width={48}
+                height={48}
+                className="rounded-xl"
+              />
               <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
                 DescriptAI
               </h2>

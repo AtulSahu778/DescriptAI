@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { useState, useEffect } from "react";
@@ -126,9 +127,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {/* Logo */}
         <div className="flex items-center h-16 px-4 border-b border-white/10">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center text-black text-sm font-bold">
-              D
-            </div>
+            <Image
+              src="/logo.png"
+              alt="DescriptAI Logo"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
             <span
               className={`font-semibold tracking-tightest text-white/90 whitespace-nowrap transition-opacity duration-150 ${sidebarExpanded ? "opacity-100" : "opacity-0 w-0"
                 }`}
@@ -147,8 +152,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 key={item.href}
                 href={item.href}
                 className={`relative flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150 ease-in-out ${isActive
-                    ? "bg-white/10 text-white/90"
-                    : "text-white/60 hover:text-white/90 hover:bg-white/[0.06]"
+                  ? "bg-white/10 text-white/90"
+                  : "text-white/60 hover:text-white/90 hover:bg-white/[0.06]"
                   }`}
               >
                 {/* Active dot indicator */}
@@ -212,9 +217,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       >
         <div className="flex items-center justify-between h-16 px-4 border-b border-white/10">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center text-black text-sm font-bold">
-              D
-            </div>
+            <Image
+              src="/logo.png"
+              alt="DescriptAI Logo"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
             <span className="font-semibold tracking-tightest text-white/90">
               DescriptAI
             </span>
@@ -247,8 +256,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 href={item.href}
                 onClick={() => setMobileMenuOpen(false)}
                 className={`relative flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150 ease-in-out ${isActive
-                    ? "bg-white/10 text-white/90"
-                    : "text-white/60 hover:text-white/90 hover:bg-white/[0.06]"
+                  ? "bg-white/10 text-white/90"
+                  : "text-white/60 hover:text-white/90 hover:bg-white/[0.06]"
                   }`}
               >
                 {isActive && (
