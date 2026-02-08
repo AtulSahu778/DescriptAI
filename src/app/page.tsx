@@ -147,15 +147,16 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/80 backdrop-blur-md border-b border-white/[0.06]">
         <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 sm:py-5">
-          <Link href="/" className="flex items-center gap-2 text-lg sm:text-xl font-semibold tracking-tight text-white">
-            <Image
-              src="/logo.png"
-              alt="DescriptAI"
-              width={40}
-              height={40}
-              className="rounded-lg"
-            />
-          </Link>
+            <Link href="/" className="flex items-center gap-2.5 text-lg sm:text-xl font-semibold tracking-tight text-white">
+              <Image
+                src="/logo.png"
+                alt="DescriptAI"
+                width={36}
+                height={36}
+                className="rounded-lg"
+              />
+              <span className="tracking-tight">DescriptAI</span>
+            </Link>
           <div className="flex items-center gap-3 sm:gap-6">
             <Link
               href="/login"
