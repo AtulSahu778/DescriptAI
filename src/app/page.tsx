@@ -155,7 +155,7 @@ export default function Home() {
                 height={36}
                 className="rounded-lg"
               />
-              <span className="tracking-tight">DescriptAI</span>
+                <span className="hidden sm:inline tracking-tight">DescriptAI</span>
             </Link>
           <div className="flex items-center gap-3 sm:gap-6">
             <Link
