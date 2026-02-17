@@ -63,7 +63,7 @@ export default function SignupPage() {
                     Start writing better copy
                   </h1>
                 <p className="text-white/40 text-sm">
-                  Free to start — 500 credits included, no card required.
+                  Free to start — 50 credits included, no card required.
                 </p>
               </div>
 
