@@ -26,6 +26,15 @@ const navItems = [
     ),
   },
   {
+    href: "/bulk-images",
+    label: "Bulk Images",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
+      </svg>
+    ),
+  },
+  {
     href: "/voices",
     label: "Brand Voices",
     icon: (
@@ -287,43 +296,43 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
       {/* Main content */}
       <div className="flex-1 flex flex-col min-h-screen lg:pl-16 relative z-10">
-            {/* Mobile header */}
-                <header className="lg:hidden relative flex items-center justify-between h-14 px-4 border-b border-white/10 bg-[#0A0A0A]/80 backdrop-blur-xl sticky top-0 z-30">
-                  <button
-                    onClick={() => setMobileMenuOpen(true)}
-                    className="relative z-10 text-white/60 hover:text-white/90 transition-colors duration-150"
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                  </button>
-                  <Link href="/" className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <span className="pointer-events-auto flex items-center gap-1.5">
-                      <Image
-                        src="/logo.png"
-                        alt="DescriptAI Logo"
-                        width={24}
-                        height={24}
-                        className="rounded-md"
-                      />
-                      <span className="font-semibold text-sm tracking-tight text-white/90 leading-none">
-                        DescriptAI
-                      </span>
-                    </span>
-                  </Link>
-                  <div className="relative z-10">
-                    {credits !== null ? (
-                      <div className="flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-2 py-0.5">
-                        <svg className="w-3 h-3 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375" />
-                        </svg>
-                        <span className="text-[11px] font-semibold text-emerald-400 leading-none">{credits}</span>
-                      </div>
-                    ) : (
-                      <div className="w-10" />
-                    )}
-                  </div>
-                </header>
+        {/* Mobile header */}
+        <header className="lg:hidden relative flex items-center justify-between h-14 px-4 border-b border-white/10 bg-[#0A0A0A]/80 backdrop-blur-xl sticky top-0 z-30">
+          <button
+            onClick={() => setMobileMenuOpen(true)}
+            className="relative z-10 text-white/60 hover:text-white/90 transition-colors duration-150"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+          <Link href="/" className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <span className="pointer-events-auto flex items-center gap-1.5">
+              <Image
+                src="/logo.png"
+                alt="DescriptAI Logo"
+                width={24}
+                height={24}
+                className="rounded-md"
+              />
+              <span className="font-semibold text-sm tracking-tight text-white/90 leading-none">
+                DescriptAI
+              </span>
+            </span>
+          </Link>
+          <div className="relative z-10">
+            {credits !== null ? (
+              <div className="flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-2 py-0.5">
+                <svg className="w-3 h-3 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375" />
+                </svg>
+                <span className="text-[11px] font-semibold text-emerald-400 leading-none">{credits}</span>
+              </div>
+            ) : (
+              <div className="w-10" />
+            )}
+          </div>
+        </header>
 
         {/* Page content - centered narrow column */}
         <main className="flex-1 py-8 px-4 md:px-8">
