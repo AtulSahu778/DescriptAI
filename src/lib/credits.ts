@@ -45,32 +45,14 @@ export async function decrementCredits(
   userId: string,
   amount: number = 1
 ): Promise<number> {
-  // Use a conditional update to prevent going below 0
-  const { data, error } = await supabase
-    .from("user_profiles")
-    .update({
-      credits_remaining: await getCurrentCredits(supabase, userId) - amount,
-      updated_at: new Date().toISOString(),
-    })
-    .eq("id", userId)
-    .gte("credits_remaining", amount)
-    .select("credits_remaining")
-    .single();
+  // Use an RPC call for atomic decrement to prevent race conditions
+  const { data, error } = await supabase.rpc("decrement_credits", {
+    user_id_param: userId,
+    amount_param: amount,
+  });
 
-  if (error || !data) return -1;
-  return data.credits_remaining;
-}
-
-async function getCurrentCredits(
-  supabase: SupabaseClient,
-  userId: string
-): Promise<number> {
-  const { data } = await supabase
-    .from("user_profiles")
-    .select("credits_remaining")
-    .eq("id", userId)
-    .single();
-  return data?.credits_remaining ?? 0;
+  if (error || data === null || data === undefined) return -1;
+  return data as number;
 }
 
 export async function logUsage(

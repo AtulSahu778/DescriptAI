@@ -138,3 +138,22 @@ CREATE POLICY "Users can update own bulk jobs" ON public.bulk_jobs FOR UPDATE US
 -- Policies for usage_logs
 CREATE POLICY "Users can view own usage logs" ON public.usage_logs FOR SELECT USING (auth.uid() = user_id);
 CREATE POLICY "Users can insert own usage logs" ON public.usage_logs FOR INSERT WITH CHECK (auth.uid() = user_id);
+
+-- RPC for atomic credit decrement
+CREATE OR REPLACE FUNCTION public.decrement_credits(user_id_param UUID, amount_param INTEGER)
+RETURNS INTEGER
+LANGUAGE plpgsql
+SECURITY DEFINER
+AS $$
+DECLARE
+  new_credits INTEGER;
+BEGIN
+  UPDATE public.user_profiles
+  SET credits_remaining = credits_remaining - amount_param,
+      updated_at = NOW()
+  WHERE id = user_id_param AND credits_remaining >= amount_param
+  RETURNING credits_remaining INTO new_credits;
+
+  RETURN new_credits;
+END;
+$$;
